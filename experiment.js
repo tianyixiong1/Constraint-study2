@@ -607,7 +607,7 @@ const scenarioStimuli = [
 ];
 
 // Experiment trails
-// Study 3 -- ask participants to rate 18 actions
+// Study 2 -- ask participants to rate 3 actions for each 6 scenarios, a total of 18 trials
 
 const shuffledScenarios = jsPsych.randomization.shuffle(scenarioStimuli);
 const chosenSix = shuffledScenarios.slice(0, 6);
