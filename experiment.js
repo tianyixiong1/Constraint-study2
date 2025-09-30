@@ -631,7 +631,7 @@ chosenSix.forEach((scenario, idx) => {
         <div style="text-align:left;margin-bottom:10px;">
           <p><strong>Please read the following scenario and answer the following questions:</strong></p>
           <p>${scenario[genderKey]}</p>
-          <p><em>${agentName} is considering: ${act}</p>
+          <p>${agentName} is considering: ${act}</p>
         </div>
       `,
       html: `
