@@ -1,4 +1,3 @@
-
 // Add custom CSS for sliders updated at Sep29
 const style = document.createElement("style");
 style.innerHTML = `
@@ -632,7 +631,7 @@ chosenSix.forEach((scenario, idx) => {
         <div style="text-align:left;margin-bottom:10px;">
           <p><strong>Please read the following scenario and answer the following questions:</strong></p>
           <p>${scenario[genderKey]}</p>
-          <p><em>${agentName}</em> is considering: <strong>${act}</strong></p>
+          <p><em>${agentName} is considering: ${act}</p>
         </div>
       `,
       html: `
@@ -654,7 +653,7 @@ chosenSix.forEach((scenario, idx) => {
           <!-- Q1 -->
           <tr>
             <td style="width:45%;text-align:center;vertical-align:middle;padding:8px 10px;">
-              How probable is it that <strong>${agentName}</strong> will do that thing?
+              How probable is it that ${agentName} will do that thing?
             </td>
             <td style="width:55%;text-align:center;padding:8px 0;">
               <input type="range" name="prob" min="1" max="100" step="1" value="50" style="width:100%;">
@@ -664,7 +663,7 @@ chosenSix.forEach((scenario, idx) => {
           <!-- Q2 -->
           <tr>
             <td style="text-align:center;vertical-align:middle;padding:8px 10px;">
-              How morally acceptable would it be for <strong>${agentName}</strong> to do that thing?
+              How morally acceptable would it be for ${agentName} to do that thing?
             </td>
             <td style="text-align:center;padding:8px 0;">
               <input type="range" name="moral" min="1" max="100" step="1" value="50" style="width:100%;">
@@ -674,7 +673,7 @@ chosenSix.forEach((scenario, idx) => {
           <!-- Q3 -->
           <tr>
             <td style="text-align:center;vertical-align:middle;padding:8px 10px;">
-              How normal would it be if <strong>${agentName}</strong> did that thing?
+              How normal would it be if ${agentName} did that thing?
             </td>
             <td style="text-align:center;padding:8px 0;">
               <input type="range" name="norm" min="1" max="100" step="1" value="50" style="width:100%;">
