@@ -133,7 +133,7 @@ const instruction = {
     <div style="max-width:800px; margin:auto; text-align:left;">
       <h2 style="text-align:center">Welcome to our study!</h2>
       <p>In this experiment, we are interested in how you think about the kinds of things someone might do.</p>
-      <p>You’ll read scenarios that describe a situation and actions taken by a person. Afterward, you’ll be asked to rate these actions on how likely you think they are, how moral you think they are, and how normal they feel.</p>
+      <p>You will read scenarios that describe a situation and actions taken by a person. Afterward, you will be asked to rate these actions on how likely you think they are, how moral you think they are, and how normal they feel.</p>
     </div>
   `,
   choices: ['Continue']
